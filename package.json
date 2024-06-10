@@ -1,0 +1,29 @@
+{
+    "name": "wsdl2swagger2openapi",
+    "version": "1.0.0",
+    "description": "Node.js tool to convert WSDL files to OpenAPI v3.0.x, streamlining API integration with Burp Suite.",
+    "main": "wsdl2openapi.js",
+    "scripts": {
+      "start": "node wsdl2openapi.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xonoxitron/wsdl2swagger2openapi.git"
+    },
+    "keywords": [
+      "WSDL",
+      "OpenAPI",
+      "Swagger",
+      "Node.js",
+      "API",
+      "Converter",
+      "Burp Suite"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "soap-converter": "^0.2.1",
+      "swagger2openapi": "^7.0.8"
+    }
+  }
+  
